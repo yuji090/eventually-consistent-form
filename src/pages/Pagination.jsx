@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { fetchPage } from "../utils/paginationApi";
+import { fetchPage } from "../utils/mock/paginationApi";
 import { useState, useRef } from "react";
 
 export default function Pagination() {
